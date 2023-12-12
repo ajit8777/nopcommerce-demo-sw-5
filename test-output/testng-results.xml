@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-10T22:35:14 GMT" name="testsuite" finished-at="2023-12-10T22:35:28 GMT" duration-ms="14013">
+    <groups>
+      <group name="regression">
+        <method signature="ComputerPageTest.verifyUserShouldNavigateToComputerPageSuccessfully()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@1623b78d]" name="verifyUserShouldNavigateToComputerPageSuccessfully" class="com.nopcommerce.demo.testsuite.ComputerPageTest"/>
+        <method signature="LoginPageTest.userShouldNavigateToLoginPageSuccessFully()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@359f7cdf]" name="userShouldNavigateToLoginPageSuccessFully" class="com.nopcommerce.demo.testsuite.LoginPageTest"/>
+        <method signature="RegisterPageTest.verifyUserShouldNavigateToRegisterPageSuccessfully()[pri:0, instance:com.nopcommerce.demo.testsuite.RegisterPageTest@c8c12ac]" name="verifyUserShouldNavigateToRegisterPageSuccessfully" class="com.nopcommerce.demo.testsuite.RegisterPageTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="ComputerPageTest.verifyUserShouldNavigateToComputerPageSuccessfully()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@1623b78d]" name="verifyUserShouldNavigateToComputerPageSuccessfully" class="com.nopcommerce.demo.testsuite.ComputerPageTest"/>
+        <method signature="LoginPageTest.userShouldNavigateToLoginPageSuccessFully()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@359f7cdf]" name="userShouldNavigateToLoginPageSuccessFully" class="com.nopcommerce.demo.testsuite.LoginPageTest"/>
+        <method signature="RegisterPageTest.verifyUserShouldNavigateToRegisterPageSuccessfully()[pri:0, instance:com.nopcommerce.demo.testsuite.RegisterPageTest@c8c12ac]" name="verifyUserShouldNavigateToRegisterPageSuccessfully" class="com.nopcommerce.demo.testsuite.RegisterPageTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="ComputerPageTest.verifyUserShouldNavigateToComputerPageSuccessfully()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@1623b78d]" name="verifyUserShouldNavigateToComputerPageSuccessfully" class="com.nopcommerce.demo.testsuite.ComputerPageTest"/>
+        <method signature="LoginPageTest.userShouldNavigateToLoginPageSuccessFully()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@359f7cdf]" name="userShouldNavigateToLoginPageSuccessFully" class="com.nopcommerce.demo.testsuite.LoginPageTest"/>
+        <method signature="RegisterPageTest.verifyUserShouldNavigateToRegisterPageSuccessfully()[pri:0, instance:com.nopcommerce.demo.testsuite.RegisterPageTest@c8c12ac]" name="verifyUserShouldNavigateToRegisterPageSuccessfully" class="com.nopcommerce.demo.testsuite.RegisterPageTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2023-12-10T22:35:14 GMT" name="Sanity Test" finished-at="2023-12-10T22:35:28 GMT" duration-ms="14013">
+      <class name="com.nopcommerce.demo.testsuite.RegisterPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.RegisterPageTest@c8c12ac]" started-at="2023-12-10T22:35:25 GMT" name="setUp" finished-at="2023-12-10T22:35:27 GMT" duration-ms="2651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="inIt()[pri:0, instance:com.nopcommerce.demo.testsuite.RegisterPageTest@c8c12ac]" started-at="2023-12-10T22:35:27 GMT" name="inIt" finished-at="2023-12-10T22:35:27 GMT" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method signature="verifyUserShouldNavigateToRegisterPageSuccessfully()[pri:0, instance:com.nopcommerce.demo.testsuite.RegisterPageTest@c8c12ac]" started-at="2023-12-10T22:35:27 GMT" name="verifyUserShouldNavigateToRegisterPageSuccessfully" finished-at="2023-12-10T22:35:28 GMT" duration-ms="586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserShouldNavigateToRegisterPageSuccessfully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.RegisterPageTest@c8c12ac]" started-at="2023-12-10T22:35:28 GMT" name="tearDown" finished-at="2023-12-10T22:35:28 GMT" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.demo.testsuite.RegisterPageTest -->
+      <class name="com.nopcommerce.demo.testsuite.ComputerPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@1623b78d]" started-at="2023-12-10T22:35:21 GMT" name="setUp" finished-at="2023-12-10T22:35:24 GMT" duration-ms="2772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="inIt()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@1623b78d]" started-at="2023-12-10T22:35:24 GMT" name="inIt" finished-at="2023-12-10T22:35:24 GMT" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method signature="verifyUserShouldNavigateToComputerPageSuccessfully()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@1623b78d]" started-at="2023-12-10T22:35:24 GMT" name="verifyUserShouldNavigateToComputerPageSuccessfully" finished-at="2023-12-10T22:35:24 GMT" duration-ms="787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserShouldNavigateToComputerPageSuccessfully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@1623b78d]" started-at="2023-12-10T22:35:24 GMT" name="tearDown" finished-at="2023-12-10T22:35:25 GMT" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.demo.testsuite.ComputerPageTest -->
+      <class name="com.nopcommerce.demo.testsuite.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@359f7cdf]" started-at="2023-12-10T22:35:15 GMT" name="setUp" finished-at="2023-12-10T22:35:19 GMT" duration-ms="4384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="inIt()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@359f7cdf]" started-at="2023-12-10T22:35:19 GMT" name="inIt" finished-at="2023-12-10T22:35:19 GMT" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method signature="userShouldNavigateToLoginPageSuccessFully()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@359f7cdf]" started-at="2023-12-10T22:35:19 GMT" name="userShouldNavigateToLoginPageSuccessFully" finished-at="2023-12-10T22:35:20 GMT" duration-ms="1222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userShouldNavigateToLoginPageSuccessFully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@359f7cdf]" started-at="2023-12-10T22:35:20 GMT" name="tearDown" finished-at="2023-12-10T22:35:21 GMT" duration-ms="345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.demo.testsuite.LoginPageTest -->
+    </test> <!-- Sanity Test -->
+  </suite> <!-- testsuite -->
+</testng-results>
